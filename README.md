@@ -29,14 +29,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+    The Document Object Model is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document. It allows programs and scripts to dynamically access and update the content, structure, and style of a document. The DOM represents a document with a logical tree. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.
 
 2. What is an event?
+    Event-driven programming with JavaScript is a useful way to create interactive websites. Typically, after the webpage has loaded the JavaScript program continues to run waiting for an event. If you connect this event to a JavaScript function then the function will run when the event occurs. When an event occur in HTML, the event belongs to a certain event object, like a mouse click event belongs to the MouseEvent object. 
+
 
 3. What is an event listener?
+    An event listener is an object that “listens” for events for events from a GUI component, like a button. The simple example of an event is a user clicking the mouse or pressing a key on the keyboard. An event, like a button click, is represented as an object. When the user generates an event, the system creates an event object which is then sent to the listener that has been registered for the GUI component.
 
 4. Why would we convert a NodeList into an Array?
+    NodeLists and Arrays are two different things because NodeLists are actually not a JavaScript API, but a browser API. 
+    Things like querySelectorAll() and getElementsByTagName() aren’t JavaScript methods, they’re browser APIs that let you access DOM elements. You can then manipulate them with JavaScript. It makes it a lot easier to make more multiple elements in JavaScript without having to type out the HTML over and over again.
 
 5. What is a component?
+    A component is a small, potentially re-usable set of logic, behaviors and interface elements (UI or API).
 
 ### Git Set up
 
